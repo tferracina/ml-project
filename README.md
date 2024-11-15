@@ -34,19 +34,6 @@ In this section we will perform brief exploration into our data, looking at summ
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -306,11 +293,6 @@ Next, we can perform Principal Component Analysis to look at how much we can red
 
 
 Now that we have reduced the data, we can take our first three principal components and plot the points in the space spanned by these three components. We are also going to color the points according to their label to see if there is a clear split between the two labels of the data.
-
-    /var/folders/9g/q67r0bss7297jh57g7_vdqsm0000gn/T/ipykernel_18456/1211001677.py:19: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
-      f.show()
-
-
 
     
 ![png](README_files/README_15_1.png)
